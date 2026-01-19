@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+if [[ -n $1 ]]; then
+	name=$1
+else
+	read -p "Say your name: " name
+fi
+echo "hello $name"
+
+for thing in "$@"; do
+    echo "$thing"
+done

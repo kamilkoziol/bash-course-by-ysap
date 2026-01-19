@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for thing in my items are here; do
+    echo $thing
+done
