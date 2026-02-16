@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+for thing in {a..f}; do
+	echo "this is $thing"
+done
+
+for this in {1..9}; do
+	echo "the number is $this"
+done
+
+max=10
+
+for ((i=1;i<max;i++)); do
+	echo "doing c style: $i"
+done
